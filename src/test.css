@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(25,26,31) !important;
+   
+}
+.content-wrapper{
+    margin-top: 12vh;
+}
+.page{
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+}
+.row{
+    color: white;
+
+}
+.card1{
+    width: 90%;
+    height: 50vh;
+    border-radius: 15px;
+    background-color: rgb(137, 69, 200);
+    
+}
+#form1{
+    padding-left: 80px;
+}
+.button{
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+.button a :hover{
+    background-color: black;
+}
+.button a{
+    color: white;
+}
+
+.preview{
+    padding-left: 80px;
+}
+#dropdownMenuLink{
+    width: 100% !important;
+}
+.form-control{
+    background-color: rgb(84,91,98) !important;
+}
+
+.text-area{
+    border-radius: 8px;
+    background-color:rgb(84,91,98) ;
+    box-shadow: 0px 2px 0px 0 white;
+}
+input{
+    box-shadow: 0px 2px 0px 0 white;
+}
+
+.upload{
+    width: 100%;
+    background-color: rgb(34,35,40);
+    height: 20vh;
+     padding-top: 75px;
+     padding-left: 90px;
+    
+}
+.pic{
+   
+   
+    margin: .4rem 0;
+}
+
+.pindicator {
+  background-color: rgb(25,26,31);
+  display: flex;
+  margin: 2rem auto 0;
+  width: 30rem;
+}
+.pindicator .bullet {
+  flex: 1;
+  position: relative;
+  text-align: center;
+  transform-style: preserve-3d;
+}
+.pindicator .bullet::before,
+.pindicator .bullet::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: .5rem;
+  top: 1.25rem;
+  transform: translate3d(0,0,-1px);
+}
+.pindicator .bullet::before {
+  background-color: lightgray;
+  width: 100%;
+}
+.pindicator .bullet::after {
+  background-color: black;
+  transition: opacity .25s ease-out;
+  opacity: 0;
+  width: 100%;
+}
+
+.pindicator .bullet:first-child::before,
+.pindicator .bullet:first-child::after {
+  left: 50%;
+  width: 50%;
+}
+.pindicator .bullet:last-child::before,
+.pindicator .bullet:last-child::after {
+  width: 50%;
+}
+
+.pindicator .icon {
+  background-color: lightgray;
+  border-radius: 100%;
+  color: transparent;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: inline-block;
+  height: 2em;
+  line-height: 2;
+  text-align: center;
+  transition: background-color .25s ease-out;
+  width: 2em;
+}
+.pindicator .text {
+  color: lightgray;
+  font-size: .75rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  transition: background-color .25s ease-out;
+}
+.pindicator .past .icon,
+.pindicator .current .icon {
+  background-color: black;
+  color: white;
+}
+
+.pindicator .past::after,  
+.pindicator .current::after {
+  opacity: 1;
+}
+
+.pindicator .past .text,
+.pindicator .current .text,
+.pindicator .next .text{
+  color: black;
+}
