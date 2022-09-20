@@ -1,6 +1,10 @@
 body{
     background-color: rgb(25,26,31) !important;
+    
    
+}
+.round{
+  border-radius: 35px !important;
 }
 .content-wrapper{
     margin-top: 12vh;
